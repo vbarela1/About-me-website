@@ -1,0 +1,340 @@
+
+/*
+======================================
+Custom styles
+=====================================
+*/
+body {
+  background-color: #b1bcbf;
+  background-image: url("http://thecutestblogontheblock.com/wp-content/uploads/2011/11/woah-charcoal-stretch-free-modern-vintage-blog-background-copy.jpg");
+  background-size: auto;
+  display: block;
+  margin: 0 35px 0 35px;
+  font-family: serif;
+  line-height: auto;
+}
+
+
+h1 {
+  border: 3px solid black;
+  padding: 30px 0 22px 0;
+  margin-bottom: 0;
+  background-color: #157073;
+  background: -webkit-radial-gradient(#8ceaf0, #157073);
+  background: -moz-radial-gradient(#8ceaf0, #157073);
+  background: radial-gradient(#8ceaf0, #157073);
+  font: italic normal bold 50px fantasy;
+  text-align: center;
+  color: #393a3b;
+}
+
+p {
+  margin: 5px 20px 10px 20px;
+  padding: 0 20px 15px 10px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 10px 20px 0 30px;
+  padding: 10px 0 10px 15px;
+  text-decoration: underline;
+}
+/*============================================
+Footer
+========================================
+*/
+footer {
+  clear: both;
+  padding: 8px;
+  margin: 30px 0 30px 0;
+  background-color: #157073;
+  background: -webkit-radial-gradient(#8ceaf0, #157073);
+  background: -moz-radial-gradient(#8ceaf0, #157073);
+  background: radial-gradient(#8ceaf0, #157073);
+  border: 2px solid black;
+  font-size: 14px
+}
+.footernav li{
+  display: inline;
+  font-size: 14px;
+  background: none;
+  float:none;
+  margin: 0 5px 0 70px;
+}
+
+/*
+=======================================
+Navigation
+======================================
+*/
+
+.nav ul {
+  background-color: #fb6754;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 20px;
+  padding: 0 15px 0 0 ;
+  border-right: 2px solid black;
+}
+.nav li:last-child {
+  border-right: 0;
+}
+
+/*
+==================================
+Home
+=================================
+*/
+
+.intro {
+  margin: 50px 0 50px 0;
+  font-size: 20px;
+  text-align: center;
+  font: garamond;
+}
+
+/*
+=======================================
+Columns
+=======================================
+*/
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+  margin-top: 60px;
+}
+.col-2-3 {
+  width: 66.66%;
+  float: right;
+  margin-top: 25px;ß
+}
+.col-1-3,
+.col-3-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+====================================
+Links
+=====================================
+*/
+a {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+/*
+========================================
+Biography
+========================================
+*/
+
+.decades h3 {
+  text-align: center;
+  color: #373839;
+  font-size: 30px;
+}
+/*
+========================================
+Previous Experience
+========================================
+*/
+.experience{
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+.experience h3{
+  color: #252e34;
+}
+/*
+============================================
+Interests/Hobbies
+============================================
+*/
+
+.meditation p {
+  margin: 0 350px 0 0;
+}
+.yoga h3{
+  text-align: right;
+}
+.yoga p {
+  text-align: left;
+  margin: 0 0 0 350px;
+  padding-right: 10px;
+}
+.jewelrymaking p {
+  margin: 0 350px 0 0;
+}
+.travel h3 {
+  text-align: right;
+}
+.travel p {
+  text-align: left;
+  margin: 0 0 0 350px;
+  padding-right: 10px;
+}
+.photography h3{
+  text-align: left;
+  margin-top: 50px;
+}
+.photography p{
+  text-align: left;
+  margin-bottom: 20px;
+}
+/*
+======================================
+Course Goals
+======================================
+*/
+
+.goals {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+.goals h3{
+  color: #193457;
+}
+/*
+========================================
+Contact me
+========================================
+*/
+.col-1-3 {
+  width: 40%;
+  padding-left: 60px;
+}
+.col-2-3 {
+  width: 55%;
+}
+
+}
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.col-1-3 h2{
+  text-align: center;
+}
+
+/*
+======================================
+Form
+=====================================
+*/
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+form {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 380px;
+  border: 2px solid black;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4  Arial;
+  margin: 0;
+}
+.basicinformation {
+  padding: 20px;
+
+}
+.basicinformation label {
+  display: block;
+  margin: 10px 10px 10px 10px;
+}
+label {
+  font-weight: bold;
+}
+
+textarea {
+  padding: 6px;
+  margin-top: 2px;
+  width: 100%;
+}
+.btn {
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+  margin-top: 10px;
+}
+/*
+=====================================
+Images
+=====================================
+*/
+
+.valerie img {
+  float: inherit;
+  border: 2px solid black;
+  margin: 15px 20px 25px 70px;
+  max-width: 20%;
+}
+
+.meditation img {
+  float: left;
+  max-width: 20%;
+  margin: 0 15px 0 0;
+
+}
+.yoga img {
+  float: right;
+  max-width: 20%;
+  margin: 0 0 0 15px;
+
+}
+.jewelrymaking img {
+  float: left;
+  max-width: 20%;
+  margin: 0 15px 0 0;
+}
+
+.travel img {
+  float: right;
+  max-width: 20%;
+  margin: 0 0 10px 15px;
+  padding-bottom: 50px;
+  z-index: 2;
+}
+.photography img{
+  float: left;
+  max-width: 25%;
+  margin: 0 0 15px 0;
+}
+.ssteacher img{
+  width: 270px;
+  length: 250px;
+  margin: 0 0 10px 15px;
+  display: block;
+  border-radius: 5px;
+}
+.eslteacher img{
+  width: 300px;
+  length: 300px;
+  margin: 50px 0 10px 15px;
+  display: block;
+  border-radius: 5px;
+}
+.server img{
+  width: 270px;
+  length: 270px;
+  margin: 20px 0 10px 15px;
+  display: block;
+  border-radius: 5px;
+}
